@@ -1,47 +1,43 @@
-# Supreme Court Simulation Ultimate Edition
+# SCOTUS2.0
 
-This project aims to create an interactive simulation of the Supreme Court with intuitive UI/UX design and immersive elements.
+SCOTUS2.0 is a project that aims to create an interactive simulation of the Supreme Court with intuitive UI/UX design and immersive elements. The simulation is designed to provide a realistic experience of the Supreme Court proceedings, allowing users to take on the roles of justices, lawyers, and witnesses.
 
 ## Project Structure
 
-The project structure is as follows:
+The project is structured as follows:
 
-
-Supreme_Court_Simulation_Ultimate_Edition/
+SCOTUS2.0/
 |-- src/
 |   |-- components/
-|   |   |-- Courtroom.js
-|   |   |-- Judge.js
-|   |   |-- Lawyer.js
-|   |   |-- Witness.js
-|   |   |-- Jury.js
-|   |   |-- ...
+|   |   |-- Courtroom.js: This component represents the courtroom where the proceedings take place.
+|   |   |-- Judge.js: This component represents a judge in the court.
+|   |   |-- Lawyer.js: This component represents a lawyer who argues the case.
+|   |   |-- Witness.js: This component represents a witness who provides testimony.
+|   |   |-- Jury.js: This component represents the jury who makes the decision.
 |   |-- screens/
-|   |   |-- HomeScreen.js
-|   |   |-- CaseScreen.js
-|   |   |-- CourtroomScreen.js
-|   |   |-- ...
+|   |   |-- HomeScreen.js: This is the landing page of the application.
+|   |   |-- CaseScreen.js: This screen displays the details of a case.
+|   |   |-- CourtroomScreen.js: This screen represents the courtroom where the proceedings take place.
 |   |-- utils/
-|   |   |-- api.js
-|   |   |-- helpers.js
-|   |-- App.js
-|   |-- index.js
+|   |   |-- api.js: This file contains functions for making API calls.
+|   |   |-- helpers.js: This file contains helper functions used across the application.
+|   |-- App.js: This is the main application file.
+|   |-- index.js: This is the entry point of the application.
 |-- public/
-|   |-- index.html
-|-- package.json
-|-- README.md
-
+|   |-- index.html: This is the main HTML file.
+|-- package.json: This file contains the list of project dependencies.
+|-- README.md: This file provides an overview of the project.
 
 ## Technologies Used
 
-- Programming Language: [Programming Language]
-- Framework: [Framework]
+- Programming Language: JavaScript
+- Framework: React
 
 ## Getting Started
 
-To get started with the Supreme Court Simulation Ultimate Edition, follow these steps:
+To get started with the SCOTUS2.0, follow these steps:
 
-1. Clone the repository: `git clone [repository-url]`
+1. Clone the repository: `git clone https://github.com/shadowaxe99/SCOTUS2.0.git`
 2. Install the dependencies: `npm install`
 3. Start the development server: `npm start`
 
@@ -50,7 +46,9 @@ To get started with the Supreme Court Simulation Ultimate Edition, follow these 
 - Interactive simulation of the Supreme Court
 - Intuitive UI/UX design
 - Immersive elements
+- Realistic representation of court proceedings
+- Role-playing elements
 
 ## License
 
-This project is licensed under the [License Name] License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
